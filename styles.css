@@ -1,0 +1,178 @@
+/* General styles */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: rgb(212,27,26);
+    color: rgb(0,0,0);
+    text-align: center;
+    padding: 1em;
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: rgb(0,0,0);
+    text-decoration: none;
+}
+
+.container {
+    padding: 1em;
+}
+
+/* Index page styles */
+header img {
+    float: left;
+    width: 180px;
+    height: 180px;
+    margin-right: 1em;
+}
+
+.featured-dishes, .testimonials {
+    margin-bottom: 2em;
+}
+
+.featured-dishes img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.featured-dishes div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.featured-dishes p {
+    margin-left: 1em;
+    flex-grow: 1;
+}
+
+.cta {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.cta button {
+    padding: 1em 2em;
+    font-size: 1.2em;
+}
+
+.restaurant-name {
+    display: inline-block;
+    vertical-align: middle;
+    text-shadow: 6px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 0.5em 1em;
+    background-color: #fff;
+    border: 1px solid #000;
+    text-decoration: none;
+    color: #000;
+}
+
+.special-dishes-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: auto;
+}
+
+/* Menu page styles */
+.dishes, .drinks {
+    margin-bottom: 2em;
+}
+
+.dish img, .drink img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.dish img:hover, .drink img:hover {
+    transform: scale(1.1);
+}
+
+.dish, .drink {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.header-shadow {
+    text-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Contact page styles */
+.map {
+    margin-bottom: 2em;
+}
+
+.form {
+    margin-bottom: 2em;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.form input, .form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+.form button {
+    padding: 1em 2em;
+    font-size: 1em;
+}
+
+.social {
+    text-align: center;
+}
+
+.social a {
+    margin: 0 1em;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+/* About page styles */
+.bio img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.bio {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.awards {
+    margin-bottom: 2em;
+}

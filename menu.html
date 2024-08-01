@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="header-shadow">Our Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="dishes">
+            <h2 style="text-decoration: underline;">Ethnic Fare</h2>
+            <div class="dish">
+                <img src="pic/Mirchi.jpg" alt="Rajasthani Mirchi">
+                <p>Rajasthani Mirchi- 230Rs</p>
+            </div>
+            <div class="dish">
+                <img src="pic/paneer.jpg" alt="Paneer Dum Pukht">
+                <p>Paneer Dum Pukht - 200Rs</p>
+            </div>
+            <div class="dish">
+                <img src="pic/gatta.jpeg" alt="Gatta Jodhpuri">
+                <p>Gatta Jodhpuri- 250Rs</p>
+            </div>
+            <div class="dish">
+                <img src="pic/dal.jpg" alt="Dal Panchmel">
+                <p>Dal Panchmel- 180Rs</p>
+            </div>
+        </section>
+        <section class="drinks">
+            <h2 style="text-decoration: underline;">Drinks and Beverages</h2>
+            <div class="drink">
+                <img src="pic/Amlana.avif" alt="Refreshing Amlana">
+                <p>Refreshing Amlana- 150Rs</p>
+            </div>
+            <div class="drink">
+                <img src="pic/Jal Jeera.jpg" alt="Refreshing Jal Jeera">
+                <p>Refreshing Jal Jeera- 180Rs</p>
+            </div>
+        </section>
+    </div>
+    <script>
+        // Example: Image zoom effect on menu item hover
+        const menuImages = document.querySelectorAll('.dish img, .drink img');
+        menuImages.forEach(img => {
+            img.addEventListener('mouseenter', () => {
+                img.style.transform = 'scale(1.1)';
+            });
+            img.addEventListener('mouseleave', () => {
+                img.style.transform = 'scale(1)';
+            });
+        });
+    </script>    
+    <footer>
+        <p>&copy; 2024 Our Restaurant</p>
+    </footer>
+</body>
+</html>

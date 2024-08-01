@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Restaurant Logo">
+        <h1 class="restaurant-name">Choki Dhani Restaurant</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="login.html" class="login-button">Login</a>
+    </header>
+    
+    <div class="container">
+        <section class="Special-Dishes" style="position: relative;">
+            <h2>Special Dishes</h2>
+            <div>
+                <img src="pic/bati.jpg" alt="Dish 1">
+                <p>Dal-Bati- Famous Dish of our Restaurant &#x1F60B;   - 350Rs</p>
+            </div>
+            <div>
+                <img src="pic/ghewar.webp" alt="Dish 2">
+                <p>Ghewar- Famous Sweet Dish &#x1F60B; - 200Rs</p>
+            </div>
+            <img src="delicious.gif" alt="Special Dishes" class="special-dishes-img">
+        </section>
+        <section class="testimonials">
+            <h2>Customer Testimonials</h2>
+            <p>"Great food and service!" - Riya</p>
+            <p>"Best dining experience ever!" - Vaidhai</p>
+            <p>"Best place for food ever, must visit!" - Mahi</p>
+        </section>
+        <div class="cta">
+            <button onclick="window.location.href='contact.html'">Make a Reservation</button>
+        </div>
+    </div>
+    <script>
+        // Example: Redirecting to login page on login button click
+        const loginButton = document.querySelector('.login-button');
+        loginButton.addEventListener('click', () => {
+            window.location.href = 'login.html';
+        });
+    </script>
+    
+    <footer>
+        <p>&copy; 2024 Choki Dhani Restaurant</p>
+    </footer>
+</body>
+</html>
