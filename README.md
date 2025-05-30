@@ -3,3 +3,5 @@
 3. Clone
 4.     "git clone https://github.com/mimansha11/Restaurent_web".
 5. Move to index.html file and Open with live server.
+6. live:
+7.  https://mimansha11.github.io/Restaurent_web/
